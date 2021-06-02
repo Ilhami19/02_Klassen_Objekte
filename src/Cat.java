@@ -1,11 +1,11 @@
 public class Cat 
 {
     // Property | Attribut | Field
-    public String name;
-    public String furColor;
-    public int age;
-    public boolean isFemale;
-    public int level; // intern verwendet
+    private String name;
+    private String furColor;
+    private int age;
+    private boolean isFemale;
+    private int level; // intern verwendet
 
     public Cat(String name, String furColor, int age, boolean isFemale) {
         this.name = name;
@@ -27,7 +27,7 @@ public class Cat
         }
     }
 
-    public String checkCompliance() {
+    private String checkCompliance() {
         if (isFemale) {
             return this.checkEscalationLevel();
         } else {
@@ -35,7 +35,7 @@ public class Cat
         }
     }
 
-    public String checkEscalationLevel() {
+    private String checkEscalationLevel() {
 
         // 1. --> "This is an inappropriate question!"
 		// 2. --> "I've told you once!"

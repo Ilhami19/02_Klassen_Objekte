@@ -17,7 +17,6 @@ public class App {
         Cat cat2 = new Cat("Alonzo", "black", 35, false);
         ausgabe(cat2.tellYourAttributes("#name"));
         ausgabe(cat2.tellYourAttributes("#color"));
-
         ausgabe(cat2.tellYourAttributes("#age"));
 
     }
