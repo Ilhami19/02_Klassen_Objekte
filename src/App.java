@@ -11,7 +11,6 @@ public class App {
         ausgabe( cat1.tellYourAttributes("#age"));
         ausgabe( cat1.tellYourAttributes("#age"));
 
-    
         System.out.println("-----------------");
         
         Cat cat2 = new Cat("Alonzo", "black", 35, false);
