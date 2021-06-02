@@ -5,6 +5,7 @@ public class Cat
     public String furColor;
     public int age;
     public boolean isFemale;
+    public int level; // intern verwendet
 
     public Cat(String name, String furColor, int age, boolean isFemale) {
         this.name = name;
@@ -39,11 +40,11 @@ public class Cat
         // 1. --> "This is an inappropriate question!"
 		// 2. --> "I've told you once!"
 		// 3. --> "Talk to the hand!"
-		// 4++. --> "something else ..."
+		// 4++. --> "#!?&&%"
 
-        int counter =5;
+         this.level++;
 
-        switch (counter) {
+        switch (level) {
             case 1:
                 return "This is an inappropriate question!";
             case 2:
@@ -51,7 +52,7 @@ public class Cat
             case 3:
                 return "Talk to the hand!";
             default:
-                return "1#!?&&%";
+                return "#!?&&%";
         }
 
 
